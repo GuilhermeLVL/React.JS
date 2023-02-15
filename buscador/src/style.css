@@ -28,3 +28,52 @@ background: linear-gradient(#121212,#212b46);
     border-radius: 8px;
     box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
+.containerInput input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin-right: 5px;
+}
+.containerInput input::placeholder{
+    color: #f1f1f1;
+}
+.buttonSearch{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    transition: transform 0.5s ;
+}
+.buttonSearch:hover{
+    transform: scale(1.2);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 500px;
+    border-radius: 8px;
+}
+.main h2{
+    margin: 16px 0;
+    font-size: 39px;
+}
+.main span{
+    margin-top: 16px;
+    font-weight: bold;
+}
+@media (max-width:620px){
+    .title{
+        font-size: 60px;
+    }
+    .main h2{
+        font-size: 28px;
+    }
+    .main{
+        width: 80%;
+        min-height: 250px;
+    }
+}
