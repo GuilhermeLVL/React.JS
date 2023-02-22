@@ -44,7 +44,18 @@ setoldNum(num)
 setNum (0)
   }
   function calcular(){
-
+if(operadorr ==="/"){
+  setNum(oldnum/num)
+}
+if(operadorr ==="x"){
+  setNum(oldnum*num)
+}
+if(operadorr ==="-"){
+  setNum(oldnum-num)
+}
+if(operadorr ==="+"){
+  setNum(oldnum+num)
+}
   }
 
   return (
