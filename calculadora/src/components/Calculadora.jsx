@@ -7,6 +7,8 @@ import { Box } from "@mui/system";
 export default function Calculadora() {
   
   const [num,setNum] =useState(0);
+  const [oldnum,setoldNum] =useState(0);
+  const [operadorr,setOperadorr] =useState(0);
 
   function inputNum(e){
     var input =  e.target.value;
@@ -34,6 +36,14 @@ export default function Calculadora() {
       setNum(num * -1)
     }
   }
+
+  function operator(e){
+var operadorrr = e.target.value
+  }
+  function calcular(){
+
+  }
+
   return (
     <div>
       <Box m={5} />
@@ -44,27 +54,27 @@ export default function Calculadora() {
           <button onClick={clear}>AC</button>
           <button onClick={operador}>+/-</button>
           <button onClick={porcentagem}>%</button>
-          <button className="orange">/</button>
+          <button className="orange" onClick={operator}   value={"/"}>/</button>
 
           <button className="gray" onClick={inputNum} value={7}>7</button>
           <button className="gray" onClick={inputNum} value={8}>8</button>
           <button className="gray" onClick={inputNum} value={9}>9</button>
-          <button className="orange">X</button>
+          <button className="orange" onClick={operator} value={"x"}>X</button>
 
           <button className="gray" onClick={inputNum} value={4}>4</button>
           <button className="gray" onClick={inputNum} value={5}>5</button>
           <button className="gray" onClick={inputNum} value={6}>6</button>
-          <button className="orange">-</button>
+          <button className="orange" onClick={operator} value={"-"}>-</button>
 
           <button className="gray" onClick={inputNum} value={1}>1</button>
           <button className="gray" onClick={inputNum} value={2}>2</button>
           <button className="gray" onClick={inputNum} value={3}>3</button>
-          <button className="orange">+</button>
+          <button className="orange" onClick={operator} value={"+"}>+</button>
 
-          <button className="gray">0</button>
+          <button className="gray" onClick={inputNum} value={0}>0</button>
           <button className="gray" onClick={inputNum} value={`,`}>,</button>
           <button className="gray" style={{visibility:"hidden"}}>,</button>
-          <button className="orange">=</button>
+          <button className="orange" onClick={calcular}>=</button>
         </div>
       </Container>
     </div>
