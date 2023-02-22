@@ -27,6 +27,13 @@ export default function Calculadora() {
     setNum(num/100)
   }
 
+  function operador(){
+    if(num >0){
+      setNum(-num)
+    }else if(num < 0){
+      setNum(num * -1)
+    }
+  }
   return (
     <div>
       <Box m={5} />
@@ -35,7 +42,7 @@ export default function Calculadora() {
           <Box m={12}/>
           <h1 className="resultado">{num}</h1>
           <button onClick={clear}>AC</button>
-          <button>+/-</button>
+          <button onClick={operador}>+/-</button>
           <button onClick={porcentagem}>%</button>
           <button className="orange">/</button>
 
@@ -55,7 +62,7 @@ export default function Calculadora() {
           <button className="orange">+</button>
 
           <button className="gray">0</button>
-          <button className="gray">,</button>
+          <button className="gray" onClick={inputNum} value={`,`}>,</button>
           <button className="gray" style={{visibility:"hidden"}}>,</button>
           <button className="orange">=</button>
         </div>
