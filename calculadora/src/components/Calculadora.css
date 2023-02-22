@@ -15,3 +15,18 @@ button:hover{
     padding: 1em;
 
 }
+.orange{
+    background-color: #FF9500;
+    color: white;
+}
+.gray{
+    background-color: #505050;
+    color: white;
+}
+.resultado{
+    display: flex;
+    justify-content: right;
+    margin-right: 1em;
+    font-size: 3.5em;
+    color: white;
+}
