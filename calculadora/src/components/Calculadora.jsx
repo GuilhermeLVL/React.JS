@@ -10,8 +10,16 @@ export default function Calculadora() {
 
   function inputNum(e){
     var input =  e.target.value;
-setNum(num = input)
+    if(num === 0){
+      setNum(input);
+    }else{
+      setNum(num + input)
+    }
 
+
+  }
+  function clear(e){
+    setNum(0)
   }
 
   return (
@@ -21,7 +29,7 @@ setNum(num = input)
         <div className="wrapper">
           <Box m={12}/>
           <h1 className="resultado">{num}</h1>
-          <button>AC</button>
+          <button onClick={clear}>AC</button>
           <button>+/-</button>
           <button>%</button>
           <button className="orange">/</button>
