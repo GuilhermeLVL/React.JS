@@ -18,8 +18,13 @@ export default function Calculadora() {
 
 
   }
+
   function clear(e){
     setNum(0)
+  }
+
+  function porcentagem(){
+    setNum(num/100)
   }
 
   return (
@@ -31,7 +36,7 @@ export default function Calculadora() {
           <h1 className="resultado">{num}</h1>
           <button onClick={clear}>AC</button>
           <button>+/-</button>
-          <button>%</button>
+          <button onClick={porcentagem}>%</button>
           <button className="orange">/</button>
 
           <button className="gray" onClick={inputNum} value={7}>7</button>
