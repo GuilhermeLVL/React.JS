@@ -38,7 +38,10 @@ export default function Calculadora() {
   }
 
   function operator(e){
-var operadorrr = e.target.value
+var operadorrrInput = e.target.value;
+setOperadorr(operadorrrInput)
+setoldNum(num)
+setNum (0)
   }
   function calcular(){
 
