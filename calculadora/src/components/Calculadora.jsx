@@ -45,16 +45,16 @@ setNum (0)
   }
   function calcular(){
 if(operadorr ==="/"){
-  setNum(oldnum/num)
+  setNum(parseFloat(oldnum)/parseFloat(num))
 }
 if(operadorr ==="x"){
-  setNum(oldnum*num)
+  setNum(parseFloat(oldnum)*parseFloat(num))
 }
 if(operadorr ==="-"){
-  setNum(oldnum-num)
+  setNum(parseFloat(oldnum)-parseFloat(num))
 }
 if(operadorr ==="+"){
-  setNum(oldnum+num)
+  setNum( parseFloat(oldnum) + parseFloat(num) )
 }
   }
 
@@ -86,7 +86,7 @@ if(operadorr ==="+"){
           <button className="orange" onClick={operator} value={"+"}>+</button>
 
           <button className="gray" onClick={inputNum} value={0}>0</button>
-          <button className="gray" onClick={inputNum} value={`,`}>,</button>
+          <button className="gray" onClick={inputNum} value={`.`}>,</button>
           <button className="gray" style={{visibility:"hidden"}}>,</button>
           <button className="orange" onClick={calcular}>=</button>
         </div>
