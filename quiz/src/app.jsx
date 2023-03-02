@@ -1,4 +1,4 @@
-
+import Welcome from './components/welcome'
 import './app.css'
 
 export function App() {
@@ -6,7 +6,8 @@ export function App() {
 
   return (
     <div className='App'>
-      <h1>Quiz app</h1>
+      <h1>Quiz de Programacao</h1>
+      <Welcome/>
     </div>
   )
 }
