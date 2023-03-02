@@ -1,5 +1,8 @@
 import { render } from 'preact'
 import { App } from './app'
 import './index.css'
+import {QuizProider} from './context/quiz';
 
-render(<App />, document.getElementById('app'))
+
+render(<QuizProider><App /></QuizProider>, document.getElementById('app'))
+ 
