@@ -4,13 +4,17 @@ import ReactDOM from "react-dom";
 
 import Primeiro from './components/Primeiro';
 import ComParametro from './components/ComParametro';
+impo
 
 ReactDOM.render(
 
     <>
-    <Primeiro/>
+    {/* <Primeiro/>
     <ComParametro titulo="Esse e o titulo"
     subtitulo="Esse e o subtitulo"/>
+    */}
+    
+    
     </>
     ,
     document.getElementById('root')
