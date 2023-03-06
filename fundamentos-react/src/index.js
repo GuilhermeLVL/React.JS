@@ -4,18 +4,34 @@ import ReactDOM from "react-dom";
 
 import Primeiro from './components/Primeiro';
 import ComParametro from './components/ComParametro';
-impo
+import ComFilhos from './components/ComFilhos';
+import Card from './components/layout/Card';
+
 
 ReactDOM.render(
 
     <>
-    {/* <Primeiro/>
+    {/*
+    <ComFilhos>
+        <ul>
+            <li>Ana</li>
+            <li>Bia</li>
+            <li>Amanda</li>
+            <li>Carlos</li>
+        </ul>
+    </ComFilhos>
+     <Primeiro/>
     <ComParametro titulo="Esse e o titulo"
     subtitulo="Esse e o subtitulo"/>
     */}
     
-    
-    </>
-    ,
-    document.getElementById('root')
+    <Card titulo="Primeiro Componente"> 
+    <Primeiro/>
+    </Card>
+
+    <Card titulo="Exercicio"> 
+        Conteudo
+    </Card>
+
+    </>,document.getElementById('root')
 )
