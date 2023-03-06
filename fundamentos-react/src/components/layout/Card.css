@@ -5,10 +5,11 @@ overflow: hidden;
 background-color: #fff;
 }
 .Card .Conteudo{
-
+padding: 15px 0px;
 color: #000;
 }
 .Card .Footer{
 background-color: black;
 color: white;
+padding: 5px 0px;
 }
