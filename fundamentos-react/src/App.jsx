@@ -1,5 +1,6 @@
 import React from "react";
 
+import './App.css'
 import Primeiro from './components/Primeiro';
 import ComParametro from './components/ComParametro';
 import ComFilhos from './components/ComFilhos';
@@ -7,9 +8,9 @@ import Card from './components/layout/Card';
 
 
 export default (props) => (
-    <>
-    {/*
-    <ComFilhos>
+    <div className="App">
+        <Card titulo="Componente Com Filhos">
+        <ComFilhos>
         <ul>
             <li>Ana</li>
             <li>Bia</li>
@@ -17,10 +18,13 @@ export default (props) => (
             <li>Carlos</li>
         </ul>
     </ComFilhos>
-     <Primeiro/>
-    <ComParametro titulo="Esse e o titulo"
+        </Card>
+
+        <Card titulo="Componente Com Parametro">
+<ComParametro titulo="Esse e o titulo"
     subtitulo="Esse e o subtitulo"/>
-    */}
+        </Card>
+
     
     <Card titulo="Primeiro Componente"> 
     <Primeiro/>
@@ -30,6 +34,6 @@ export default (props) => (
         Conteudo
     </Card>
 
-    </>
+    </div>
 
 )
