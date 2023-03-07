@@ -7,11 +7,11 @@ export default props =>{
         <div>
             <h2>O numero e {props.numero}</h2>
 
-            <_if test = {props.numero % 2 == 0}>
+            <_if test = {props.numero % 2 === 0}>
                 <span>Par</span>
             </_if>
 
-            <_if test = {props.numero % 2 == 1}>
+            <_if test = {props.numero % 2 === 1}>
                 <span>Impar</span>
             </_if>
          
