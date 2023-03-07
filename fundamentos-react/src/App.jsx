@@ -6,10 +6,19 @@ import ComParametro from './components/ComParametro';
 import ComFilhos from './components/ComFilhos';
 import Card from './components/layout/Card';
 import Repeticao from "./components/layout/Repeticao";
-
+import Condicional from "./components/layout/Condicional";
+import CondicionalComif from "./components/layout/CondicionalComif";
 
 export default (props) => (
     <div className="App">
+
+<Card titulo="#06 - Condicional Com IF V2">
+    <CondicionalComif numero={11}></CondicionalComif>
+        </Card>
+
+<Card titulo="#05 - Condicional V1">
+    <Condicional numero={10}></Condicional>
+        </Card>
 
 <Card titulo="#04 - Reoeticao">
  <Repeticao></Repeticao>
