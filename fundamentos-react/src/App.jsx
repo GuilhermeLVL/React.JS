@@ -16,15 +16,15 @@ export default (props) => (
     <CondicionalComif numero={11} ></CondicionalComif>
         </Card>
 
-<Card titulo="#05 - Condicional V1">
+<Card titulo="#05 - Condicional V1" color="#E94C6F">
     <Condicional numero={10}></Condicional>
         </Card>
 
-<Card titulo="#04 - Reoeticao">
+<Card titulo="#04 - Reoeticao" color="#3cf7c7">
  <Repeticao></Repeticao>
         </Card>
 
-        <Card titulo="#03 - Componente Com Filhos">
+        <Card titulo="#03 - Componente Com Filhos" color="#f73cc7">
         <ComFilhos>
         <ul>
             <li>Ana</li>
@@ -35,17 +35,17 @@ export default (props) => (
     </ComFilhos>
         </Card>
 
-        <Card titulo="#02 - Componente Com Parametro">
+        <Card titulo="#02 - Componente Com Parametro" color="#c7f73c">
 <ComParametro titulo="Esse e o titulo"
     subtitulo="Esse e o subtitulo"/>
         </Card>
 
     
-    <Card titulo="#01 - Primeiro Componente"> 
+    <Card titulo="#01 - Primeiro Componente" color="#f7c73c"> 
     <Primeiro/>
     </Card>
 
-    <Card titulo="Exercicio"> 
+    <Card titulo="Exercicio" color="#5d4b17"> 
         Conteudo
     </Card>
 
