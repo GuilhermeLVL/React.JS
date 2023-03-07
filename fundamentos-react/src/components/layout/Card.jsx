@@ -7,7 +7,7 @@ export default props =>
     {props.children}
 </div>
 
-    <div className="Footer">
+    <div className="Footer" style={{backgroundColor: props.color || '#000'}}>
 {props.titulo}
     </div>
 
