@@ -11,9 +11,14 @@ import CondicionalComif from "./components/basicos/CondicionalComif";
 import Pai from "./components/comunicacao/direta/Pai";
 import Super from "./components/comunicacao/indireta/Super";
 import Input from "./components/form/Input";
+import Contador from "./components/contador/Contador";
 
 export default (props) => (
     <div className="App">
+
+<Card titulo="#10 - Contador" color="#5c4b26">
+    <Contador passo={10} ></Contador>
+        </Card>
 
 <Card titulo="#09 - Input" color="#555c26">
     <Input></Input>
