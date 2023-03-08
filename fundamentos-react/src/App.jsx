@@ -10,9 +10,14 @@ import Condicional from "./components/basicos/Condicional";
 import CondicionalComif from "./components/basicos/CondicionalComif";
 import Pai from "./components/comunicacao/direta/Pai";
 import Super from "./components/comunicacao/indireta/Super";
+import Input from "./components/form/Input";
 
 export default (props) => (
     <div className="App">
+
+<Card titulo="#09 - Input" color="#555c26">
+    <Input></Input>
+        </Card>
 
 <Card titulo="#08 - Comunicacao indireta" color="#275c26">
     <Super></Super>
