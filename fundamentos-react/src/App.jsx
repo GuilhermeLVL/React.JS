@@ -11,10 +11,15 @@ import CondicionalComif from "./components/basicos/CondicionalComif";
 import Pai from "./components/comunicacao/direta/Pai";
 import Super from "./components/comunicacao/indireta/Super";
 import Input from "./components/form/Input";
-import Contador from "./components/contador/Contador";
+import Contador from "./components/contador/Contador"
+import Mega from "./components/mega/Mega";
 
 export default (props) => (
     <div className="App">
+
+<Card titulo="#11 - Mega" color="#ddc0e4">
+    <Mega qtdeNumeros={8}></Mega>
+        </Card>
 
 <Card titulo="#10 - Contador" color="#5c4b26">
     <Contador passo={10} ></Contador>
