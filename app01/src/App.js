@@ -16,6 +16,9 @@ import img02 from  './componentes/imgs/orange.png.jpg'
     <br/>
 
     <p>{curso}</p>
+
+    <img src={img01}/>
+    <img src={img02}/>
     </>
   )
 }
