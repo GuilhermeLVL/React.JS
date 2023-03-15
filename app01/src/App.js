@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css'
 
   export default function App(){
 const textoDestaque ={
@@ -11,7 +12,7 @@ const textoDestaque ={
 <>
     <h1 style={{color:'red',fontSize:'3em'}}>Ola mundo</h1>
     <h2 style={textoDestaque}>Curso de react</h2>
-    <p>asdasdasdasdasdasdasdasd</p>
+    <p className="texto">asdasdasdasdasdasdasdasd</p>
 </>
   )
 }
