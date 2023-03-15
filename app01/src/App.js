@@ -1,15 +1,17 @@
 import React from "react";
-import Header from "./componentes/Header";
-import Corpo from "./componentes/Corpo";
-
 
   export default function App(){
+const textoDestaque ={
+   color:'#00f',
+   fontSize:'3em',
+   backgroundColor:'purple'
+}
 
-    
   return(
-    <>
-<Header></Header>
-<Corpo></Corpo>
-    </>
+<>
+    <h1 style={{color:'red',fontSize:'3em'}}>Ola mundo</h1>
+    <h2 style={textoDestaque}>Curso de react</h2>
+    <p>asdasdasdasdasdasdasdasd</p>
+</>
   )
 }
