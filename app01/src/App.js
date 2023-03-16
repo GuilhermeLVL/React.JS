@@ -4,15 +4,18 @@ import './App.css'
   export default function App(){
 const textoDestaque ={
    color:'#00f',
-   fontSize:'3em',
-   backgroundColor:'purple'
+   fontSize:'1.9em',
+   backgroundColor:'purple',
+   borderRadius: '50px'
 }
 
   return(
 <>
-    <h1 style={{color:'red',fontSize:'3em'}}>Ola mundo</h1>
+    <section className="caixa">
+    <h1 style={{color:'red',fontSize:'2em'}}>Ola mundo</h1>
     <h2 style={textoDestaque}>Curso de react</h2>
     <p className="texto">asdasdasdasdasdasdasdasd</p>
+    </section>
 </>
   )
 }

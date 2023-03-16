@@ -1,5 +1,22 @@
+body{
+  background-color: black;
+}
 .texto{
-  color: rgb(255, 255, 255);
-  font-size: 1em;
-  background-color: darkolivegreen;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  background-color: rgb(152, 238, 3);
+
+}
+.caixa{
+  position: relative;
+  top: 15em;
+  left: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(98, 99, 99);
+  height: 20em;
+  width: 20em;
+  border-radius: 50%
 }
