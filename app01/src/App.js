@@ -15,6 +15,7 @@ const textoDestaque ={
     <h1 style={{color:'red',fontSize:'2em'}}>Ola mundo</h1>
     <h2 style={textoDestaque}>Curso de react</h2>
     <p className="texto">asdasdasdasdasdasdasdasd</p>
+    <a href="">Paradoxo</a>
     </section>
 </>
   )

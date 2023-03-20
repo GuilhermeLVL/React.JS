@@ -20,3 +20,11 @@ body{
   width: 20em;
   border-radius: 50%
 }
+.caixa a{
+  text-decoration: none;
+  color: aqua;
+}
+.caixa a:HOVER{
+  text-shadow: 1px 1px 10px black;
+  font-family: serif;
+}
