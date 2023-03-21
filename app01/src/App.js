@@ -6,13 +6,11 @@ import './App.css'
 
 const[num, setNum] = useState(10)
 
-let n1 = 12
-
 
   return(
 <>
   <p>Valor do state num em app:{num}</p>
-  <Numero num={num}></Numero>
+  <Numero num={num} setNum={setNum}></Numero>
 </>
   )
 }
