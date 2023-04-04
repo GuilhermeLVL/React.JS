@@ -27,6 +27,8 @@ import React,{useState} from 'react'
       setCor(1)
     }
   }
+
+  setInterval(mudaCor,1000)
   return(
 <>
 
