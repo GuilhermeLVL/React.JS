@@ -25,8 +25,11 @@ const Navbar = () => {
       }}>
         <img src={logo} alt='logo' aclassName='w-9 h-9 object-contain'></img>
 
-        <p className='text-white text-[18px] font-bold cursor-pointer'>Guilherme Pinheiro</p>
+        <p className='text-white text-[18px] font-bold cursor-pointer'>Guilherme
+        <span className='sm:block hidden'>| Pinheiro</span>
+         </p>
       </Link>
+      <p className='text-red-500'>asdd</p>
       </div>
     </nav>
   )
