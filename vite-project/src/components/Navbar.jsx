@@ -6,7 +6,7 @@ import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
-  const [active, setActive] = useState(` `);
+  const [active, setActive] = useState(``);
 
   return (
     <nav
@@ -19,7 +19,7 @@ const Navbar = () => {
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
-            setActive("");
+            setActive(``);
             window.scrollTo(0, 0);
           }}
         >
@@ -42,6 +42,7 @@ const Navbar = () => {
               }
                hover:text-white text-[18px] 
               font-medium cursor-pointer`}
+              onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
