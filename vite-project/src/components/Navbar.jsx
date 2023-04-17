@@ -5,7 +5,12 @@ import {styles} from '../styles';
 import { navLinks } from '../constants'
 import{logo, menu, close} from '../assets'
 
+
+
 const Navbar = () => {
+  
+  const [first, setfirst] = useState(second)
+
   return (
     <nav className={`
     ${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary
@@ -13,6 +18,10 @@ const Navbar = () => {
       
       <div className='w-full flex justify-between items-center max-w-7x1 mx-auto'> 
 
+      <Link to="/" className='flex items-center gap-2'
+      onClick={()=>{
+        setActive("");
+      }}></Link>
       </div>
     </nav>
   )
