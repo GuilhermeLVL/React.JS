@@ -24,6 +24,8 @@ const Navbar = () => {
         window.scrollTo(0,0)
       }}>
         <img src={logo} alt='logo' aclassName='w-9 h-9 object-contain'></img>
+
+        <p className='text-white text-[18px] font-bold cursor-pointer'>Guilherme Pinheiro</p>
       </Link>
       </div>
     </nav>
