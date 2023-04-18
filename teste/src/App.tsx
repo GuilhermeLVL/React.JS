@@ -18,15 +18,16 @@ function App() {
 
  function desfazer(){
   const newCLickedPoits = [... clickPoints]
-  newCLickedPoits.pop
+  newCLickedPoits.pop()
   setClickPoints(newCLickedPoits)
  }
   return (
   <>
-  <button onClick={}>Desfazer</button>
+  <button onClick={desfazer}>Desfazer</button>
   <div className="App" onClick={getCordenadas}>
-    {clickPoints.map((clickPoints)=> {
+    {clickPoints.map((clickPoints, index)=> {
       return <div 
+      key={index}
       style={{left:clickPoints.clientX -6,
          top:clickPoints.clientY -6,
           position:'absolute',
