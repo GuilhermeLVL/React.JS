@@ -1,8 +1,4 @@
-#root {
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+
 
 .App{
   width: 100vw;
@@ -10,3 +6,8 @@
 background-color: aqua;
 }
 
+button{
+  display: flex;
+  position: absolute;
+
+}

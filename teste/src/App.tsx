@@ -15,7 +15,10 @@ function App() {
 
   setClickPoints([...clickPoints, { clientX, clientY }])
  }
-  return <div className="App" onClick={getCordenadas}>
+  return (
+  <>
+  <button>Desfazer</button>
+  <div className="App" onClick={getCordenadas}>
     {clickPoints.map((clickPoints)=> {
       return <div 
       style={{left:clickPoints.clientX -6,
@@ -28,7 +31,8 @@ function App() {
         }}></div>
     })}
   </div>
-
+  </>
+  )
 
   }
 
