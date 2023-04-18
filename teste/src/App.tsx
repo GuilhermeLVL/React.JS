@@ -2,10 +2,12 @@
 import './App.css'
 
 function App() {
- 
-  return <div className="App"></div>
+ function getCordenadas(e: React.MouseEvent<HTMLElement>){
+console.log(e)
+ }
+  return <div className="App" onClick={getCordenadas}></div>
 
-  
+
   }
 
 
