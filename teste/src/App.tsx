@@ -18,14 +18,14 @@ function App() {
   return <div className="App" onClick={getCordenadas}>
     {clickPoints.map((clickPoints)=> {
       return <div 
-      style={{left:clickPoints.clientX,
-         top:clickPoints.clientY,
+      style={{left:clickPoints.clientX -6,
+         top:clickPoints.clientY -6,
           position:'absolute',
           borderRadius:'50%',
-          color:'red',
-          width:'3px',
-          height:'3px',
-        }}>0</div>
+          backgroundColor:'red',
+          width:'10px',
+          height:'10px',
+        }}></div>
     })}
   </div>
 
