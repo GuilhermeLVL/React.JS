@@ -3,13 +3,10 @@ import './App.css'
 
 function App() {
  
+  return <div className="App"></div>
 
-  return App()
-    <div className="App">
-      <div>
-       
-    </div>
-  )
-}
+  
+  }
+
 
 export default App
