@@ -40,7 +40,7 @@ function App() {
         <Grid container>
           {pokemons.map((pokemon, key) => (
             <Grid item xs={3} key={key}>
-              <PokemonCard name={pokemon.data.name}></PokemonCard>
+              <PokemonCard name={pokemon.data.name} image={pokemon.data.sprites.front_default}></PokemonCard>
             </Grid>
           ))}
         </Grid>
