@@ -30,10 +30,10 @@ const getPokemons = () =>{
       <Container maxWidth='false'>
 
         <Grid container>
-          {pokemons.map((pokemon) =>(
+          {pokemons.map((pokemon, key) =>(
           
-          <Grid item xs={3}>
-            <PokemonCard></PokemonCard>
+          <Grid item xs={3} key={key}>
+            <PokemonCard name={pokemon.name}></PokemonCard>
           </Grid>
 
           ))}
