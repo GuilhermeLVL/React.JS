@@ -5,6 +5,7 @@ import { Home } from "./pages/Home";
 import NavBar from "./components/NavBar";
 import PokemonCard from "./components/PokemonCard";
 import { Container, Grid } from "@mui/material";
+import { Filter } from "@mui/icons-material";
 
 function App() {
   const [pokemons, setPokemons] = useState([]);
@@ -24,15 +25,22 @@ function App() {
     .then((res) => setPokemons(res)) 
     .catch((err) => console.log(err))
   
-    
-   
-
 
     axios
       .get("https://pokeapi.co/api/v2/pokemon?limit=50&offset=0")
       .then((res) => setPokemons(res.data.results))
       .catch((err) => console.log(err));
   };
+
+  const pokemonFilter = (name) => {
+    var filteredPokemons = []
+    for(var i in pokemons){
+      if(pokemons[i].name.include(name)){
+        filteredPokemons.push(pokemons[i]);
+      }
+    }
+    setPokemons(filteredPokemons)
+  }
   return (
     <>
       <NavBar></NavBar>
