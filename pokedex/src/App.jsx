@@ -37,9 +37,9 @@ function App() {
     <>
       <NavBar></NavBar>
       <Container maxWidth="false">
-        <Grid container>
+        <Grid container spacing={3}>
           {pokemons.map((pokemon, key) => (
-            <Grid item xs={3} key={key}>
+            <Grid item xs={2} key={key}>
               <PokemonCard name={pokemon.data.name} image={pokemon.data.sprites.front_default}></PokemonCard>
             </Grid>
           ))}
