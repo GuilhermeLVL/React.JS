@@ -9,16 +9,17 @@ import { Container, Grid } from '@mui/material'
 function App() {
 
 
+const [pokemons, setPokemons] = useState([])
 
   useEffect(() => {
     getPokemons()
   },[])
 
-  
+
 const getPokemons = () =>{
 
   axios.get("https://pokeapi.co/api/v2/pokemon?limit=50&offset=0")
-.then((res) => console.log(res))
+.then((res) => setPokemons(res.data.results))
 .catch((err) => console.log(err))
 
 }
@@ -29,19 +30,15 @@ const getPokemons = () =>{
       <Container maxWidth='false'>
 
         <Grid container>
+          {pokemons.map((pokemon) =>(
           
           <Grid item xs={3}>
             <PokemonCard></PokemonCard>
           </Grid>
-          <Grid item xs={3}>
-            <PokemonCard></PokemonCard>
-          </Grid>
-          <Grid item xs={3}>
-            <PokemonCard></PokemonCard>
-          </Grid>
-          <Grid item xs={3}>
-            <PokemonCard></PokemonCard>
-          </Grid>
+
+          ))}
+          
+          
 
         </Grid>
       
