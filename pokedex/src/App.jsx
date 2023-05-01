@@ -34,8 +34,11 @@ function App() {
 
   const pokemonFilter = (name) => {
     var filteredPokemons = []
+    if(name===""){
+      getPokemons()
+    }
     for(var i in pokemons){
-      if(pokemons[i].name.include(name)){
+      if(pokemons[i].data.name.includes(name)){
         filteredPokemons.push(pokemons[i]);
       }
     }
@@ -43,7 +46,7 @@ function App() {
   }
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar pokemonFilter ={pokemonFilter}></NavBar>
       <Container maxWidth="false">
         <Grid container spacing={3}>
           {pokemons.map((pokemon, key) => (
