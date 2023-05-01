@@ -51,7 +51,7 @@ function App() {
         <Grid container spacing={3}>
           {pokemons.map((pokemon, key) => (
             <Grid item xs={2} key={key}>
-              <PokemonCard name={pokemon.data.name} image={pokemon.data.sprites.front_default}></PokemonCard>
+              <PokemonCard name={pokemon.data.name} image={pokemon.data.sprites.front_default} type={pokemon.data.types}></PokemonCard>
             </Grid>
           ))}
         </Grid>
