@@ -18,7 +18,8 @@ import React,{useState} from 'react'
  name='fnome'
   value={nome} 
   onChange={(e) => hanleChangeNome(e)}></input>
-<p>Nome digitado:{nome} </p>
+<p>Nome digitado:{nome}
+ola </p>
 </>
 
 );
