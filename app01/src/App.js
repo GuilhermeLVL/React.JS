@@ -20,7 +20,7 @@ import React,{useState} from 'react'
   onChange={(e) => hanleChangeNome(e)}></input>
 <p>Nome digitado:{nome}</p>
 
-<p>Ola {nome}</p>
+<p>Ola {nome}, seja bem vindo</p>
 </>
 
 );
