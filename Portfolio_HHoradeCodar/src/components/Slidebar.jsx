@@ -1,10 +1,10 @@
-import Avatar from '../img/profile-pic (2).png';
+import Avatar from '../img/IMAGEM.png';
 import '../Styles/components/slidebar.sass';
 
 const Slidebar = () => {
   return (
     <aside id="slidebar">
-      <p>imagem</p>
+      <img src={Avatar}/>
       <p className="title">Desenvolvedor</p>
       <p>redes sociais</p>
       <p>informacao de contato</p>
