@@ -1,6 +1,9 @@
-import './Styles/components/app.sass';
+//Componentes
 import MainContent from './components/MainContent';
 import Slidebar from './components/Slidebar';
+
+//Estilos
+import './Styles/components/app.sass';
 
 function App() {
   
