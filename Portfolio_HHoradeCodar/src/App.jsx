@@ -1,11 +1,11 @@
-
+import './Styles/components/app.sass';
 
 function App() {
   
 
   return (
-    <div className="App">
-      <h1>React + Sass</h1>
+    <div id="porfolio">
+      <h1>Guilherme Pinheiro</h1>
     </div>
   )
 }
