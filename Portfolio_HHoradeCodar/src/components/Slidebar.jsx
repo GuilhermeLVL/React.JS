@@ -8,7 +8,7 @@ const Slidebar = () => {
       <img src={Avatar}/>
       <p className="title">Desenvolvedor</p>
       <RedesSociais/>
-      <p>informacao de contato</p>
+      <informationContainer/>
       <a href="" className="btn">Download curriculo</a>
 
 
