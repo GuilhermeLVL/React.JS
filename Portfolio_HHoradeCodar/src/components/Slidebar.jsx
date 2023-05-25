@@ -1,12 +1,13 @@
 import Avatar from '../img/IMAGEM.png';
 import '../Styles/components/slidebar.sass';
+import RedesSociais from './RedesSociais';
 
 const Slidebar = () => {
   return (
     <aside id="slidebar">
       <img src={Avatar}/>
       <p className="title">Desenvolvedor</p>
-      <p>redes sociais</p>
+      <RedesSociais/>
       <p>informacao de contato</p>
       <a href="" className="btn">Download curriculo</a>
 
