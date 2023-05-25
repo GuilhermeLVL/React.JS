@@ -16,19 +16,19 @@ const informationContainer = () => {
 
 
         <div className="info-card">
-        <AiFillPhone id="phone-icon"/>
+        <AiOutlineMail id="phone-icon"/>
         <div>
-            <h3>Telefone</h3>
-            <p>(55)12312-12312</p>
+            <h3>E-mail</h3>
+            <p>GUIGUI...</p>
         </div>
         </div>
 
 
         <div className="info-card">
-        <AiFillPhone id="phone-icon"/>
+        <AiFillEnvironment id="phone-icon"/>
         <div>
-            <h3>Telefone</h3>
-            <p>(55)12312-12312</p>
+            <h3>Localizacao</h3>
+            <p>Minas</p>
         </div>
         </div>
     </section>
