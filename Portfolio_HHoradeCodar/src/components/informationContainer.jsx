@@ -3,9 +3,11 @@ import '../Styles/components/informationContainer.sass'
 
 import React from 'react'
 
-const informationContainer = () => {
+const InformationContainer = () => {
   return (
     <section id="information">
+
+
         <div className="info-card">
         <AiFillPhone id="phone-icon"/>
         <div>
@@ -31,8 +33,9 @@ const informationContainer = () => {
             <p>Minas</p>
         </div>
         </div>
+
     </section>
   )
 }
 
-export default informationContainer
+export default InformationContainer
