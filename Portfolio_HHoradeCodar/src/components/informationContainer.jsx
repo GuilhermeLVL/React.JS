@@ -5,7 +5,33 @@ import React from 'react'
 
 const informationContainer = () => {
   return (
-    <div>INFORMATIONcONTAINER</div>
+    <section id="information">
+        <div className="info-card">
+        <AiFillPhone id="phone-icon"/>
+        <div>
+            <h3>Telefone</h3>
+            <p>(55)12312-12312</p>
+        </div>
+        </div>
+
+
+        <div className="info-card">
+        <AiFillPhone id="phone-icon"/>
+        <div>
+            <h3>Telefone</h3>
+            <p>(55)12312-12312</p>
+        </div>
+        </div>
+
+
+        <div className="info-card">
+        <AiFillPhone id="phone-icon"/>
+        <div>
+            <h3>Telefone</h3>
+            <p>(55)12312-12312</p>
+        </div>
+        </div>
+    </section>
   )
 }
 
