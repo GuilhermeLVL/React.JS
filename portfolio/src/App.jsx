@@ -7,7 +7,15 @@ function App() {
   return (
     <>
      <Header></Header>
-     Conteudo
+     <section className='container'>
+      <div>
+
+        <p>Ola, sou <br/>
+        <span>Guilherme pinheiro</span>
+        <br/> Dev Front-end</p>
+        <button>Saiba mais</button>
+      </div>
+     </section>
      <Footer></Footer>
     </>
   )
