@@ -1,9 +1,10 @@
-import styles from './Header.module.css'
+import React from 'react';
+import styles from './Header.module.css';
 
 function Header() {
 
     return(
-    <header className='styles.header'>
+    <header className={styles.header}>
         <span>GuilhermePinheiro.Dev</span>
         <nav>
             <a href="">Home</a>
