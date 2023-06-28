@@ -1,5 +1,6 @@
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
+import { Link } from 'react-router-dom'
 
 function Home(){
     
@@ -12,7 +13,11 @@ function Home(){
            <p>Ola, sou <br/>
            <span>Guilherme pinheiro</span>
            <br/> Dev Front-end</p>
-           <button className='btn btn-red'>Saiba mais</button>
+
+           <Link to="/Sobre" className='btn btn-red'> Saiba mais
+           </Link>
+           
+
          </div>
    
    
