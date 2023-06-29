@@ -7,7 +7,11 @@ function Projetos(){
         <>
        
         <Header></Header>
-        <h1>Projetos</h1>
+        <Container>
+
+            <h2>Projetos</h2> 
+        </Container>
+       
         <Footer></Footer>
         </>
     )

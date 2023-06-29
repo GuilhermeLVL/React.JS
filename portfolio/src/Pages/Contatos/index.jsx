@@ -7,7 +7,11 @@ function Contatos(){
     return(
         <>
         <Header></Header>
-        <h1>Contatos</h1>
+
+        <Container>
+            <h2>Contatos</h2>
+        </Container>
+        
         <Footer></Footer>
         </>
         
