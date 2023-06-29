@@ -2,6 +2,7 @@ import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 import { Link } from 'react-router-dom'
 import Container from '../../Components/Container'
+import styles from './home.module.css'
 
 function Home(){
     
@@ -10,14 +11,15 @@ function Home(){
         <Header></Header>
        <Container>
 
-       <section className='home'>
-         <div className='apresentacao'>
+       <section className={styles.home}>
+         <div className={styles.apresentacao}>
    
            <p>Ola, sou <br/>
            <span>Guilherme pinheiro</span>
            <br/> Dev Front-end</p>
 
-           <Link to="/Sobre" className='btn btn-red'> Saiba mais
+           <Link to="/Sobre" className={`${styles.btn} ${styles.btn_red}
+           `}> Saiba mais
            </Link>
            
 
