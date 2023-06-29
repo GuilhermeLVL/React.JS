@@ -1,0 +1,20 @@
+.titulo2{
+padding-top: 2rem;
+
+}
+
+.textos{
+display: flex;
+align-content: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.texto_grande{
+
+    
+}
+.texto_vermelho{
+
+    color: red;
+}
