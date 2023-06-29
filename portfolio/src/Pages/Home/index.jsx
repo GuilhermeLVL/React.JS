@@ -27,7 +27,7 @@ function Home(){
    
    
          <figure>
-           <img className='img-home' src="/developer-red.svg" alt="imagem de home" />
+           <img className={styles.img_home} src="/developer-red.svg" alt="imagem de home" />
          </figure>
    
    
