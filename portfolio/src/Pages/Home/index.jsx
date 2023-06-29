@@ -1,13 +1,16 @@
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 import { Link } from 'react-router-dom'
+import Container from '../../Components/Container'
 
 function Home(){
     
     return(
         <>
         <Header></Header>
-        <section className='container'>
+       <Container>
+
+       <section className='home'>
          <div className='apresentacao'>
    
            <p>Ola, sou <br/>
@@ -27,6 +30,7 @@ function Home(){
    
    
         </section>
+       </Container>
         <Footer></Footer>
        </>
     )
