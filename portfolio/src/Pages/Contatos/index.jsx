@@ -14,8 +14,12 @@ function Contatos(){
             <h2>Contatos</h2>
             <h3>Entre em contato</h3>
             <p>Para que possamos conversar mais sobre</p>
+
             <div className={styles.icones}>
-            iconse</div>
+                
+            iconse
+            
+            </div>
 
             </section>
         </Container>
