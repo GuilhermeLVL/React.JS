@@ -13,10 +13,10 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
+    padding-block: 1.5rem;
 }
 .icone{
     font-size: 3rem;
     color: var(--red);
-    
+    cursor: pointer;
 }

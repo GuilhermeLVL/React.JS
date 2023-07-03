@@ -20,11 +20,16 @@ function Contatos(){
 
             <div className={styles.icones}>
 
-            <GoMail className={styles.icone}></GoMail>
-            <BsInstagram className={styles.icone}></BsInstagram>
-            <BsYoutube className={styles.icone}></BsYoutube>
-            <BsGithub className={styles.icone}></BsGithub>
-            <BsLinkedin className={styles.icone}></BsLinkedin>
+            <a href='mailto:guigui.cruzeiro@gmail.com' target="_blank" rel="noopener noreferre">
+            <GoMail className={styles.icone}></GoMail> </a>
+            <a href="https://www.instagram.com/guilhermelvl/" target="_blank"><BsInstagram className={styles.icone}></BsInstagram> </a>
+            <a href="https://www.youtube.com/channel/UC0B9-PPfveTOfRJxnN9j6jQ" target="_blank"><BsYoutube className={styles.icone}></BsYoutube> </a>
+            <a href="https://github.com/GuilhermeLVL" target="_blank"><BsGithub className={styles.icone}></BsGithub> </a>
+            <a href="https://www.linkedin.com/in/guilhermelvl/" target="_blank"><BsLinkedin className={styles.icone}></BsLinkedin> </a>
+            
+            
+            
+           
             
             </div>
 
