@@ -20,11 +20,11 @@ function Contatos(){
 
             <div className={styles.icones}>
 
-            <GoMail></GoMail>
-            <BsInstagram></BsInstagram>
-            <BsYoutube></BsYoutube>
-            <BsGithub></BsGithub>
-            <BsLinkedin></BsLinkedin>
+            <GoMail className={styles.icone}></GoMail>
+            <BsInstagram className={styles.icone}></BsInstagram>
+            <BsYoutube className={styles.icone}></BsYoutube>
+            <BsGithub className={styles.icone}></BsGithub>
+            <BsLinkedin className={styles.icone}></BsLinkedin>
             
             </div>
 
