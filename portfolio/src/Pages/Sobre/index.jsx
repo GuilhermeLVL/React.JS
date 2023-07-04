@@ -6,6 +6,8 @@ import js from './images/icon-js.svg'
 import node from './images/icon-node.svg'
 import react from './images/icon-react.svg'
 import sql from './images/icon-sql.svg'
+
+
 function Sobre(){
 
     return(
