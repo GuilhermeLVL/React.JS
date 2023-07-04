@@ -1,5 +1,11 @@
 import styles from './Sobre.module.css'
 import avatar from './images/profile-pic (2).png'
+import html from './images/icon-html.svg'
+import css from './images/icon-css.svg'
+import js from './images/icon-js.svg'
+import node from './images/icon-node.svg'
+import react from './images/icon-react.svg'
+import sql from './images/icon-sql.svg'
 function Sobre(){
 
     return(
