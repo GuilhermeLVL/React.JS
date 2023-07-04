@@ -31,7 +31,12 @@ function Sobre(){
 
        <div className={styles.techs}>
         <h3>Techs</h3>
-        images
+        <img src={html} alt="" />
+        <img src={css} alt="" />
+        <img src={js} alt="" />
+        <img src={node} alt="" />
+        <img src={react} alt="" />
+        <img src={sql} alt="" />
 
        </div>
      
