@@ -1,16 +1,23 @@
-
+import styles from './Sobre.module.css'
 
 function Sobre(){
 
     return(
-        <>
+        <section className={styles.sobre}>
        
-       
-       <h2>Sobre</h2>
+       <div className={styles.bio}>
+        <h2></h2>
+       </div>
+
+       <div className={styles.techs}>
+        <h3>Techs</h3>
+        images
+
+       </div>
      
        
         
-        </>
+        </section>
     )
 }
 
