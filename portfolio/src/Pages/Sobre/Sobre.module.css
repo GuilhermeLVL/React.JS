@@ -3,6 +3,7 @@
     height: 1px;
 }
 
+
 .sobre{
     width: 100%;
     height:85vh;
@@ -14,6 +15,7 @@
 
 }
 
+
 .bio{
     display: flex;
     align-items: center;
@@ -21,10 +23,29 @@
     margin-bottom: 3rem;
 
 }
+
+
+.bio span{
+    color: var(--red);
+    font-weight: bold;
+}
+
+
+.bio strong{
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+
+.textos h2, p{
+    margin-bottom: 1rem;
+}
+
+
 .techs{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    
+
 }
