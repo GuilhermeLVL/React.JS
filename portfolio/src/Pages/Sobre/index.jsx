@@ -13,7 +13,7 @@ function Sobre(){
        
        <div className={styles.bio}>
         <img src={avatar} alt="Imagen" className='styles.avatar'/>
-        <div>
+        <div className={styles.textos}>
                 <h2>Sobre</h2>
 
                 <p>Sou Guilherme pinheiro <br />
@@ -30,13 +30,16 @@ function Sobre(){
        </div>
 
        <div className={styles.techs}>
-        <h3>Techs</h3>
-        <img src={html} alt="" />
-        <img src={css} alt="" />
-        <img src={js} alt="" />
-        <img src={node} alt="" />
-        <img src={react} alt="" />
-        <img src={sql} alt="" />
+                 <h3>Techs</h3>
+
+            <div className={styles.icones}>     
+                <img src={html} alt="" />
+                <img src={css} alt="" />
+                <img src={js} alt="" />
+                <img src={node} alt="" />
+                <img src={react} alt="" />
+                <img src={sql} alt="" />
+            </div>
 
        </div>
      
