@@ -1,6 +1,6 @@
 .avatar{
-    width: 1px;
-    height: 1px;
+    width: 250px;
+    height: 250px;
 }
 
 
@@ -43,9 +43,22 @@
 
 
 .techs{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+
+}
+
+.icones{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.icones img{
+    height: 50px;
 
 }

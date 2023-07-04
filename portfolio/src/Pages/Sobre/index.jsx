@@ -14,7 +14,7 @@ function Sobre(){
         <section className={styles.sobre}>
        
        <div className={styles.bio}>
-        <img src={avatar} alt="Imagen" className='styles.avatar'/>
+        <img src={avatar} alt="Imagen" className={styles.avatar}/>
         <div className={styles.textos}>
                 <h2>Sobre</h2>
 
