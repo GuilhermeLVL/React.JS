@@ -24,3 +24,37 @@
 
 }
 
+.card_footer{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.card_icones{
+    display: flex;
+    gap: 10px;
+    color: var(--red);
+    font-size: 1.5rem;
+
+}
+
+.botao{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color: var(--red);
+    transition: all 0.5s;
+}

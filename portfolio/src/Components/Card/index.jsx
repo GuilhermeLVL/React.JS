@@ -1,5 +1,6 @@
 import styles from './Card.module.css'
 import {FaHtml5, FaReact, FaJs, FaCss3Alt} from 'react-icons/fa'
+import {BsArrowRight} from 'react-icons/Bs'
 function Card (){
 
     return(
@@ -21,7 +22,7 @@ function Card (){
                 </div>
 
                 <button className={styles.botao}>
-                    seta
+                    <BsArrowRight/>
                 </button>
             </div>
         </section>
