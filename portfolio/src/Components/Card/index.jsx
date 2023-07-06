@@ -1,6 +1,6 @@
 import styles from './Card.module.css'
 import {FaHtml5, FaReact, FaJs, FaCss3Alt} from 'react-icons/fa'
-import {BsArrowRight} from 'react-icons/Bs'
+import {BsArrowRight} from 'react-icons/bs'
 
 
 function Card ({name, description,html_url}){
