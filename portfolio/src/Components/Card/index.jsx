@@ -1,7 +1,7 @@
 import styles from './Card.module.css'
 import {FaHtml5, FaReact, FaJs, FaCss3Alt} from 'react-icons/fa'
 import {BsArrowRight} from 'react-icons/Bs'
-import { Link } from 'react-router-dom'
+
 
 function Card ({name, description,html_url}){
 
@@ -23,9 +23,9 @@ function Card ({name, description,html_url}){
                     <FaReact ></FaReact>
                 </div>
 
-                <Link to={html_url} className={styles.botao}>
+                <a href={html_url} target='_blank' className={styles.botao}>
                     <BsArrowRight/>
-                </Link>
+                </a>
             </div>
         </section>
     )

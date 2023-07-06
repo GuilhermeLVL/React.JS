@@ -9,7 +9,7 @@ function Projetos(){
         useEffect(()=>{
             const buscarRepositorios = async () =>{
 
-                const response = await fetch('https://api.github.com/users/GuilhermeLVL/repos')
+                const response = await fetch('https://api.github.com/users/GuilhermeLVL/repos?page=1&per_page=50')
 
                 const data = await response.json()
 
@@ -32,8 +32,13 @@ function Projetos(){
 
             {
                 repositories.map((repo) =>( 
-                    
-                    <Card key={repo.id} name={repo.name} description={repo.description} html_url={repo.html_url}></Card>
+
+                    <Card key={repo.id} 
+                    name={repo.name}
+                    description={repo.description}
+                     html_url={repo.html_url}
+                     
+                     > </Card>
                 ))
             }
             
