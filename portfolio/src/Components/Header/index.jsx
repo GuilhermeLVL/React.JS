@@ -16,7 +16,7 @@ const toggleMenu = () => {
         <Link to="/">
             <span>GuilhermePinheiro.Dev</span>
         </Link>
-        <nav className={`${showMenu ? styles.show : '' }`}>
+        <nav onClick={toggleMenu }className={`${showMenu ? styles.show : '' }` }>
             <Link to="/">Home</Link>
             <Link to="/Sobre">Sobre</Link>
             <Link to="/Projetos">Projetos</Link>
