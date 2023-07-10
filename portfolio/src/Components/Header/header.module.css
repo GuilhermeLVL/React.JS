@@ -62,6 +62,23 @@
  
     .show{
         display: flex;
-        
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        right: 0;
+
+        background-color: var(--primary);
+        flex-direction: column;
+        padding: 20px;
+        gap: 1rem;
+        border-radius: 3px;
+
+    }
+
+}
+@media (max-width: 480px) {
+    .show{
+        width: 100%;
     }
 }
