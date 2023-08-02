@@ -4,7 +4,7 @@ import './App.css'
 interface ClikedProps {
   clientX: Number
   clientY: Number
-}
+}kl
 
 function App() {
 
