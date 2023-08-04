@@ -34,8 +34,7 @@ const toggleMenu = () => {
             
         </div>
 
-    </header>
-    )
+    </header>a
 }
 
 export default Header
