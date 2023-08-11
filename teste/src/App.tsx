@@ -3,7 +3,7 @@ import './App.css'
 
 interface ClikedProps {
   clientX: Number
-  clientY: Number
+  clientY: Numbe
 }
 
 function App() {
