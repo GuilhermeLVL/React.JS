@@ -1,5 +1,5 @@
 import React from 'react'
-import {AiOutlineMenu,} from 'reasct-icons/ai'
+import {AiOutlineMenu,AiOutlineSearch,AiOutlineClose,AiFillTag} from 'react-icons/ai'
 
 
 const TopNav = () => {
@@ -8,8 +8,12 @@ const TopNav = () => {
 
     <div className='flex items-center'>
         <div className='cursor-pointer'>
-            <></>
+            <AiOutlineMenu size={25}></AiOutlineMenu>
         </div>
+
+        <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>Yum
+          <span> Eats</span>
+        </h1>
     </div>
 
     </div>
