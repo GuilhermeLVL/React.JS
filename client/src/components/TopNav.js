@@ -1,12 +1,13 @@
 import React from 'react'
 import {AiOutlineMenu,AiOutlineSearch,AiOutlineClose,AiFillTag} from 'react-icons/ai'
+import {BsFillCartFill, BsPerson} from 'react-icons/bs'
 
 
 const TopNav = () => {
   return (
     <div className='max-w-[1520] mx-auto flex justify-between items-center p-4'>
     <div className='flex items-center'>
-      
+
         <div className='cursor-pointer'>
             <AiOutlineMenu size={25}></AiOutlineMenu>
         </div>
@@ -22,6 +23,18 @@ const TopNav = () => {
     </div>
 
     </div>
+
+    <div className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]' >
+
+      <AiOutlineSearch size={25}></AiOutlineSearch>
+      <input className='bg-transparent p-2 w-full focus:outline-none' type="text" placeholder='Pesquise por verduras'></input>
+
+
+    </div>
+
+    <button className='bg-orange-700 text-white hidden md:flex items-center py-2 rounded-full'>
+    <BsFillCartFill size={20}></BsFillCartFill>Carrinho
+    </button>
     </div>
   )
 }
