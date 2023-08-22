@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import {AiOutlineMenu,AiOutlineSearch,AiOutlineClose,AiFillTag} from 'react-icons/ai'
 import {BsFillCartFill, BsPerson} from 'react-icons/bs'
+import{TbTruckReturn } from 'react-icons/tb'
+import{ FaGoogleWallet} from 'react-icons/fa'
+import{MdHelp , MdOutlineFavorite} from 'react-icons/md'
 
 
 const TopNav = () => {
@@ -57,6 +60,48 @@ const TopNav = () => {
       </AiOutlineClose>
 
       <h2 className='text-2xl p-4'>Yum <span className='text-orange-700 font-bold'>Eats</span></h2>
+
+      <nav >
+        <ul className='flex flex-col p-4 text-gray-900'>
+
+
+          <li className='text-xl py-4 flex'>
+            <BsPerson size={24} className='mr-4 text-white bg-black rounded-full '></BsPerson>
+
+            Minha Conta
+          </li>
+
+
+          <li className='text-xl py-4 flex'>
+            <TbTruckReturn size={24} className='mr-4 text-white bg-black rounded-full '></TbTruckReturn>
+
+            Entregas
+          </li>
+
+
+          <li className='text-xl py-4 flex'>
+            <MdOutlineFavorite size={24} className='mr-4 text-white bg-black rounded-full '></MdOutlineFavorite>
+
+           Meus Favoritos
+          </li>
+
+
+          <li className='text-xl py-4 flex'>
+            <FaGoogleWallet size={24} className='mr-4 text-white bg-black rounded-full '></FaGoogleWallet>
+
+            Meu Wallet
+          </li>
+
+
+          <li className='text-xl py-4 flex'>
+            <MdHelp size={24} className='mr-4 text-white bg-black rounded-full '></MdHelp>
+
+            Ajuda
+          </li>
+
+
+        </ul>
+      </nav>
     </div>
 
 
