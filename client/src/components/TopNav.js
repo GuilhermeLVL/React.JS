@@ -39,13 +39,17 @@ const TopNav = () => {
     <BsFillCartFill size={20}></BsFillCartFill>Carrinho
     </button>
 
-{
-sideNav ? (
-  <div className='bg-black/60 fixed w-full h-screen z-10 top-0 left-0'></div>
+    {
+    sideNav ? (
+      <div className='bg-black/60 fixed w-full h-screen z-10 top-0 left-0'></div>
 
-):("")
-}
+    ):("")
+    }
    
+   <div className='fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-200'>
+
+
+   </div>
 
 
     
