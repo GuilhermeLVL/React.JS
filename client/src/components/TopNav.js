@@ -55,6 +55,8 @@ const TopNav = () => {
       size={25} className='absolute right-4 cursor-pointer '>
 
       </AiOutlineClose>
+
+      <h2 className='text-2xl p-4'>Yum <span className='text-orange-700 font-bold'>Eats</span></h2>
     </div>
 
 
