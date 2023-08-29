@@ -89,7 +89,7 @@ const TopNav = () => {
           <li className='text-xl py-4 flex'>
             <FaGoogleWallet size={24} className='mr-4 text-white bg-black rounded-full '></FaGoogleWallet>
 
-            Meu Wallet
+            Meu Walle
           </li>
 
 
