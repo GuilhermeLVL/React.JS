@@ -96,7 +96,7 @@ const TopNav = () => {
           <li className='text-xl py-4 flex'>
             <MdHelp size={24} className='mr-4 text-white bg-black rounded-full '></MdHelp>
 
-            Ajuda
+            Ajud
           </li>
 
 
